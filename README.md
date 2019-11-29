@@ -11,7 +11,7 @@ namespace XUnitTest
 {
     public class Joiner
     {
-        public string GetArrayToString<T>(IList<T> array, string separator = ", ") => String.Join(separator, array);
+        public string GetArrayToString&lt;T&gt;(IList&lt;T&gt; array, string separator = ", ") =&gt; String.Join(separator, array);
     }
 }
 </code></pre>
